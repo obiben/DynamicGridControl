@@ -17,6 +17,21 @@ I didn't find anything appropriate and after playing around with virtualizing st
 - Makes use of multiple CPU cores (using TPL).
 - Automatically transforms a 1-dimensional source array to a 2-dimensional grid (by using two source item's properties to calculate the x/y position).
 
+##Sample
+
+![Image a sample grid](https://github.com/obiben/DynamicGridControl/blob/master/DynamicGrid.PNG?raw=true)
+
+The data source for the control shown above is a `IEnumerable<SampleGridItem>`. The `SampleGridItem` looks like this:
+
+```csharp
+public class SampleGridItem
+{
+    public string ProductName { get; set; }
+    public DateTime ProductionDate { get; set; }
+    public int ProductionCount { get; set; } 
+}
+```
+
 ## Using the control - Step by Step
 ### 1. Include the project you can download on this page
 
