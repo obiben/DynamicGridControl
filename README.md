@@ -4,7 +4,7 @@ WPF control to create grids dynamically.
 This is an improvement from this control, tailored to suit my own needs: for now this only means being able to modify the DataSource at runtime and seeing changes be made to the grid.
 http://www.codeproject.com/Articles/775352/WPF-Virtualizing-Grid-Control?msg=5262175#xx5262175xx
 
-Description copied from source for perenity:
+Description copied from source for perennity:
 ##Introduction
 Recently, I found myself searching the web for a highly flexible, virtualizing WPF grid control, to present a large set of data to the user in an time-table like manner, who should then be able to pick one item to proceed with.
 
